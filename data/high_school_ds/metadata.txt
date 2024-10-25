@@ -1,0 +1,6 @@
+Graph properties:
+Total nodes, 133
+Total edges, 401
+Avg node degree, 6.030075
+Graph largest diameter, 10
+Total nodes, edges in sub-graph, 133, 401

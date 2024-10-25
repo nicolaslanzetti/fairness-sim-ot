@@ -1,0 +1,11 @@
+.idea/
+.venv/
+.ipynb_checkpoints
+*.pyc
+__pycache__/
+*.log
+experiments/
+.vscode/
+*Zone.Identifier
+*.bak
+data/dblp_ds/raw/

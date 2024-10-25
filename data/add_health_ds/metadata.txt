@@ -1,0 +1,1 @@
+Total nodes, edges in sub-graph, 1997, 8523

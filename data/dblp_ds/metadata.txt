@@ -1,0 +1,1 @@
+Total nodes, edges in sub-graph, 35489, 161744
