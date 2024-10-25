@@ -125,6 +125,8 @@ Python script **not** a part of the main library but is useful for converting da
 10. `main.ipynb`
 The **main introduction and interface** script to walk new users through the library interface.
 
+A more granular documented code structure is hosted at [Read the Docs](https://fairness-sim-ot.readthedocs.io/en/latest/) tied to the public [repository](https://github.com/nicolaslanzetti/fairness-sim-ot).
+
 ## <a id="citation"></a> Citation
 
 If you use this code in an academic context, please cite:
