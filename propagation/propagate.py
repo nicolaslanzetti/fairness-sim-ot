@@ -16,17 +16,17 @@ def propagate(G: nx.Graph,
               seedset: list,
               time_horizon: int,
               logger=global_logger) -> tuple:
-    """simulates the process of a single cascade in a random graph
+    """ simulates the process of a single cascade in a random graph
 
     Args:
         G (nx.Graph): underlying random graph with all random edges present
-          (they are sampled later)
+        (they are sampled later)
         node_feats (dict): node features for the corresponding graph, G
         edge_prob (float): probability of each edge's conduction
         seedset (list): the proposed seedset with the information
         time_horizon (int): time-step until which propagation takes place
         logger (Logger, optional): logger used for logging. Defaults to
-          global_logger.
+        global_logger.
 
     Returns:
         tuple: 1. dict: nodes with values as
@@ -35,9 +35,10 @@ def propagate(G: nx.Graph,
         what aggregated time step
         2. dict: for every seed,
         [total_nodes_reached, {group_id: [total_group_i_nodes_reached,
-            total_time_taken],...}]
+        total_time_taken],...}]
         3. dict: for every group,
-          (total_group_i_nodes_reached, total_time_taken)
+        (total_group_i_nodes_reached, total_time_taken)
+
     """
 
     prop_info = {}

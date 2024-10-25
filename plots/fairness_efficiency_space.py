@@ -26,11 +26,11 @@ def fairness_efficiency_scatter_for_seedsets(G,
                                              bin_size=100,
                                              logger=global_logger,
                                              fig_name=None):
-    """Plots seedset selection algorithms/heuristics on the E-f, the
-      efficiency and mutual-fairness, space. All seedset selections from
+    """ Plots seedset selection algorithms/heuristics on the E-f, the
+        efficiency and mutual-fairness, space. All seedset selections from
         labelled_seedsets are evaluated for their efficiency and
-          (beta=0) fairness, that is mutual-fairness, and then plotted as
-            a single point on this E-f space.
+        (beta=0) fairness, that is mutual-fairness, and then plotted as
+        a single point on this E-f space.
     """
     # x-axis -> efficiency, y-axis -> fairness
     labelled_efficiency_for_seedsets = {

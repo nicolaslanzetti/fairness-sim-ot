@@ -99,8 +99,8 @@ def flush_pipeline(loc_loggers):
 def run_experiment(input=DEFAULT_INPUT,
                    pipeline_mod=DEFAULT_PIPELINE_MOD,
                    output_dir=PROJECT_ROOT + "/experiments/"):
-    """A ready to use interface for a 1 shot dataset, seedset and propagation
-      algo selection to get metrics, OT scores, and Outreach Distribution
+    """ A ready to use interface for a 1 shot dataset, seedset and propagation
+        algo selection to get metrics, OT scores, and Outreach Distribution
         plots resulting from the setup.
     """
     assert validate_input(input)

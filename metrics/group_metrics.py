@@ -50,8 +50,8 @@ def calculate_groupwise_dist(multi_run_group_info: dict,
 
 
 def calc_point_fairness_metric(frac_reach_per_group_per_run):
-    """given the outreach distribution for each group, it calculates its
-      Mutual Fairness (beta=1). Can use 'n' instead of a '2' in the
+    """ given the outreach distribution for each group, it calculates its
+        Mutual Fairness (beta=1). Can use 'n' instead of a '2' in the
         fairness_score formula to calculate mutual-fairness amongst n-groups.
     """
     # A (0, 0, 0, ...) is a point on the iso fair line

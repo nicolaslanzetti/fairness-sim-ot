@@ -9,3 +9,6 @@ experiments/
 *Zone.Identifier
 *.bak
 data/dblp_ds/raw/
+_build/
+_static/
+_templates/
