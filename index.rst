@@ -6,7 +6,7 @@
 fairness-sim-ot documentation
 =============================
 
-This generated documentation records the library interface organized in several sub-modules of the ``fairness-sim-ot`` library. If you generated this documentation locally, you can use ``PROJECT_ROOT/generate_docs.sh`` to refresh/change the structure accordingly.
+This generated documentation records the library interface organized in several sub-modules of the ``fairness-sim-ot`` `library <https://github.com/nicolaslanzetti/fairness-sim-ot>`_. If you generated this documentation locally, you can use ``PROJECT_ROOT/generate_docs.sh`` to refresh/change the structure accordingly.
 
 
 .. toctree::
